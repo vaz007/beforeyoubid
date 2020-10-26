@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import { Field, reduxForm } from "redux-form";
 import {
@@ -357,7 +358,6 @@ const renderFromHelper = ({ touched, error }) => {
 
 const renderSelectField = ({
   input,
-  label,
   meta: { touched, error },
   children,
   ...custom
